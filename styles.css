@@ -38,7 +38,7 @@ h1 {
 }
 .book {
   border-right: 5px solid red;
-  color: red;
+  color: #FF0000;
 }
 #article {
   border-right: 5px solid green;
