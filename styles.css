@@ -34,8 +34,7 @@ h1 {
   padding-right: 3px;
 }
 .website {
-<img src="images/web.png" style="border-right: 5px solid blue;">
-
+ border-right: 5px solid blue;
 }
 .book {
   border-right: 5px solid red;
