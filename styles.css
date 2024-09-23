@@ -43,7 +43,7 @@ h1 {
 }
 #article {
   border-right: 5px solid green;
-  background: url('images/web.png') top left repeat
+  background: url('images/web.png') top left repeat;
 }
 #footer {
   font-size: 0.5em;
