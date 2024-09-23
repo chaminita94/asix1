@@ -1,15 +1,16 @@
 body{
   background: #fff url('images/gradbg.jpg') top left repeat-x;
   color: #000;
-  margin: 0;
+  margin: 0px;
   padding:0;
   border: 0;
-  font-family: Verdana, Arial, sans-serif; font-size: 1em;
+  font-family: Verdana, Arial, sans-serif; font-size: 1.15em;
 }
 div {
   width: 800px;
   margin: 0 auto;
 }
+
 #bggraphic {
   background: url('images/pen.png') top left no-repeat;
   height: 278px;
@@ -21,11 +22,13 @@ div {
 h1 {
   text-align: center;
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 2.5em;
   margin-bottom: 30px;
   background: url('images/headbg.png') top left repeat;
   padding: 10px 0;
+  color: red;
 }
+
 #references cite {
   margin: 1em 0 0 3em;
   text-indent: -3em;
@@ -33,6 +36,14 @@ h1 {
   font-style: normal;
   padding-right: 3px;
 }
+
+#article {
+  border-right: 5px solid green;
+  background-image: url('images/articles.png'); /* Verify this path */
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
 .website {
   border-right: 5px solid blue;
   background-image: url('images/web.png'); /* Verify this path */
@@ -48,20 +59,14 @@ h1 {
   background-repeat: no-repeat;
 }
 
-#article {
-  border-right: 5px solid green;
-  background-image: url('images/articles.png'); /* Verify this path */
-  background-position: top right;
-  background-repeat: no-repeat;
-}
 
 #footer {
   display: none;
   font-size: 0.5em;
   border-top: 1px solid #000;
   margin-top: 20px;
-}
 
+}
 #footer a {
   color: #000;
   text-decoration: none;
