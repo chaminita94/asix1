@@ -38,6 +38,7 @@ h1 {
 }
 .book {
   border-right: 5px solid red;
+  color: red;
 }
 #article {
   border-right: 5px solid green;
