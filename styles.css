@@ -42,8 +42,8 @@ h1 {
   color: red;
 }
 #article {
+  background: url('images/web.png') top left no-repeat;
   border-right: 5px solid green;
-  background: url('images/web.png') top left repeat;
 }
 #footer {
   font-size: 0.5em;
