@@ -37,6 +37,7 @@ h1 {
   border-right: 5px solid blue;
   background: url('images/web.png') top left no-repeat;
   background-repeat: no-repeat; /* Corrected line */
+  background-position: top-left;
 }
 
 .book {
