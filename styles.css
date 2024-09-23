@@ -42,9 +42,11 @@ h1 {
   color: red;
 }
 #article {
-  background: url('images/web.png') top left no-repeat;
   border-right: 5px solid green;
+  background: url('images/web.png') top left no-repeat;
+  background-repeat: no-repeat; /* Corrected line */
 }
+
 #footer {
   font-size: 0.5em;
   border-top: 1px solid #000;
